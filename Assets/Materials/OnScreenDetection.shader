@@ -3,6 +3,8 @@ Shader "Unlit/OnScreenDetection"
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
+        _delay ("Delay", Float) = 0.000001
+        
     }
     SubShader
     {
@@ -28,6 +30,8 @@ Shader "Unlit/OnScreenDetection"
             varying vec3 normal;
             varying vec3 vPos;
 
+            
+
 			void main(){
                 normal = inverse( transpose( mat3(gl_ModelViewProjectionMatrix) ) ) * vNormal;
                 vPos = (gl_ModelViewProjectionMatrix * vPosition).xyz;
@@ -42,6 +46,9 @@ Shader "Unlit/OnScreenDetection"
 
             varying vec3 normal;
             varying vec3 vPos;
+
+            uniform float _delay;
+            uniform vec4 foveated_position = vec4(0);
 
             vec3 L = (gl_ModelViewProjectionMatrix * _WorldSpaceLightPos0).xyz;
             vec3 N = normalize( normal );
@@ -131,8 +138,14 @@ Shader "Unlit/OnScreenDetection"
                 vec4 Ir = Qd + Qs;
 
                 // ambient
+                float index = 0;
+                    while (index < 1){
+                        if (index >= 0){
+                            index += _delay;
+                        }
+                    }
 
-                return Ir ;
+                return Ir * index;
             }
             
 			
@@ -146,13 +159,18 @@ Shader "Unlit/OnScreenDetection"
 					1);
 
                 vec2 onScreenC_v2 = vec2(onScreenCoordinate.x, onScreenCoordinate.y);
-                if (onScreenCoordinate.x < 0.5){
+
+                vec2 target = foveated_position.xy;
+                float target_distance = length(target - onScreenCoordinate.xy);
+                float switch_distance = 0.1;
+                if (target_distance > switch_distance){
                     vec4 color = Phong();
                     gl_FragColor = color;
                     //gl_FragColor = Strauss();
                 }
                 else{
-                    gl_FragColor = Phong();
+                    
+                    gl_FragColor = Strauss()  ;
                 }
 				
 			}

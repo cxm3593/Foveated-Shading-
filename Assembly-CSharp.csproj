@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\FpsControl.cs" />
+     <Compile Include="Assets\Scripts\FoveatedRegionControl.cs" />
      <None Include="Assets\Materials\OnScreenDetection.shader" />
      <None Include="Assets\Materials\DoubleModelShading.shader" />
     <Reference Include="UnityEngine">
