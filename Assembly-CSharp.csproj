@@ -36,10 +36,362 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\FpsControl.cs" />
      <Compile Include="Assets\Scripts\FoveatedRegionControl.cs" />
+     <Compile Include="Assets\Scripts\FpsControl.cs" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Particle MultiplyDouble.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\SceneViewAlphaShader.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\ShowOverlap.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityImageBasedLighting.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Cubemaps\CubeBlurOdd.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UI\UI-Lit-Detail.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewAlphaVT.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Inspectors\TreeCreator\TreeTextureCombiner.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Splats\DiffuseBaseGen.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-GUITextureClip.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewCubemap.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-BlitToDepth.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Cubemaps\CubeCopy.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\TerrainBrush.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Particle AddSmooth.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UI\UI-Overdraw.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\Preview3DSliced.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Splats\Standard-FirstPass.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\AutoLight.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Utils\TerrainLayerUtils.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityBuiltin3xTreeLibrary.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Mobile\Mobile-BumpSpec.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\ColoredTexture.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Unlit\Unlit-Alpha.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Physics\DebugVisSolidCapsule.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Particle Standard Unlit.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\GUITextureBlit2SRGB.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResources\Internal-ErrorShader.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Normal-BumpSpec.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\SpeedTreeBillboardCommon.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBarkOptimized.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\SceneViewSelected.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStereoExtensions.glslinc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\GridShader.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Details\WavingGrass.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStandardParticleShadow.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStandardBRDF.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Lightmap-Bumped.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-Halo.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Utils\CrossBlendNeighbors.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewColor2DVT.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionLeavesRendertex.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-GUITexture.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\SceneViewAura.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\2DHandleDottedLinesShader.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\HandleLinesShader.shader" />
      <None Include="Assets\Materials\OnScreenDetection.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\VR\Shaders\Internal-VRDistortion.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-CombineDepthNormals.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Standard.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Inspectors\InactiveGUI.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Mobile\Mobile-BumpSpec-1DirectionalLight.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Illumin-Bumped.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\Preview3DSDF.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\VR\Shaders\BlitTexArraySliceToDepth_MSAA.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Avatar\Materials\Avatar_Transparent.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\TerrainPreview.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBark.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Particle AddMultiply.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResources\Internal-Skinning-Util.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\StandardSpecular.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\TerrainEngine.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Trees\BillboardTree.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Physics\DebugVisWire.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Alpha-VertexLit.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Cubemaps\CubeBlur.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\GIDebug\ShowLightMask.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewShadowPlaneClip.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionBarkRendertex.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\GraphView\AAEdge.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\HandlesRenderShader.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UIElements\EditorUIE.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResources\Internal-VT-TranslationTableReplace.compute" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\GridGap.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Particle Blend.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TextCore-SDF.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Multiply.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Illumin-BumpSpec.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Splats\Specular-FirstPass.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\SpeedTree.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\GizmoWire.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Normal-ParallaxSpec.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\GraniteShaderLib3.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\SceneViewShowMips.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\LightProbeLines.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStandardMeta.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\BoneHandles.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-GUITextureBlit.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityDeprecated.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-CubemapToEquirect.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\AlphaTest-Bumped.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UIElements\Internal-UIRDefault.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Splats\Specular-AddPass.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityShaderVariables.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\GizmoWireNoDepthTest.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Particle Add.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Trees\CameraFacingBillboardTree.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Particle Alpha Blend.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityGBuffer.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewPlaneWithShadow.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UI\UI-Unlit-Detail.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesOptimized.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityGlobalIllumination.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStandardParticles.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Avatar\Shaders\Editor-AlphaTestDiffuse.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Illumin-ParallaxSpec.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewEncodedNormalsVT.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Illumin-Diffuse.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\GizmoIconPicking.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Utils\BrushPreview.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Lightmap-Glossy.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\VertexSelectedShader.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UI\UI-DefaultETC1.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-ScreenSpaceShadows.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Skybox.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityLightingCommon.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Alpha-ParallaxSpec.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Reflect-VertexLit.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Brushes\CreateBrush.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-BlitToDepth_MSAA.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityUI.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Particle Anim Alpha Blend.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\EditorUIE.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStandardCoreForward.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Fonts\RobotoMono\RobotoMono-LICENSE.txt" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewTransparent.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Utils\TerrainHeightBlitCopy.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Normal-Bumped.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\2DHandleLinesShader.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\Preview3DVolume.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\AlphaTest-Diffuse.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Unlit\Unlit-AlphaTest.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\GizmoText.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStandardParticleInstancing.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Unlit\Unlit-Color.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\AutodeskInteractive.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\SceneViewShowLightmap.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Physics\DebugVisSolid.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Normal-Diffuse.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Mobile\Mobile-VertexLit-OnlyDirectionalLights.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionBark.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UI\UI-Unlit-TextDetail.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\HandlesLit.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\AlphaTest-BumpSpec.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-GUITextureClipText.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UIElements\Internal-UIRDefaultWorld.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\LightProbeHandles.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Avatar\Shaders\Editor-Diffuse.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\VR\Shaders\SpatialMappingOcclusion.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UIElements\GraphViewUIE.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStereoSupport.glslinc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UIElements\Internal-UIRAtlasBlitCopy.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityUIE.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStandardCore.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UI\UI-Lit-Refraction.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\TerrainTool.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewTransparentVT.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityLegacyTextureStack.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewAlpha.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Profiler\TimelineDetail.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\VideoComposite.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\GUITextureBlit2Linear.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Flare.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityShadowLibrary.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\GizmoTexture.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-ConvertTexture.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UI\UI-DefaultFont.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesFast.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Particle Premultiply Blend.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResources\PerformanceTools\FrameDebuggerRenderTargetDisplay.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\SpeedTreeBillboard.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-PrePassLighting.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResources\Internal-Skinning.compute" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnitySprites.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Cubemaps\CubeBlend.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStandardCoreForwardSimple.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UI\UI-CompositeOverdraw.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Particle Multiply.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Skybox-Panoramic.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\SceneViewSelected.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Normal-DiffuseFast.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Avatar\Shaders\Editor-BumpSpec.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Splats\FirstPass.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityDeferredLibrary.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Reflect-Bumped.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\TerrainSplatmapCommon.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Details\WavingGrassBillboard.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\GIDebug\TextureUV.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Mobile\Mobile-Skybox.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-BlitCopyDepth.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\LightProbeGroupTetrahedra.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Splats\Standard-AddPass.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Skybox-Cubed.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResources\Font.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Mobile\Mobile-Diffuse.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStandardUtils.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewShadowMask.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-DeferredReflections.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UI\UI-Lit-RefractionDetail.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Lightmap-BumpSpec.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\SpeedTreeVertex.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\SpeedTreeCommon.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Utils\GenNormalmap.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesFastOptimized.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Alpha-Bumped.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Mobile\Mobile-Bumped.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Skybox-Procedural.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Decal.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UI\UI-Unlit-Text.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\HandleIconShader.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\VR\Shaders\BlitTexArraySlice.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Unlit\Unlit-Normal.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\ParticleShapeGizmoSphere.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStandardShadow.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\Preview2DTextureArray.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\SceneViewGrayscaleEffectFade.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\license.txt" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\AlphaBasedSelection.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewEncodedNormals.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\Wireframe.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Particle VertexLit Blended.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\MeshPreviewShader.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\ShowShadowCascadeSplits.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\Preview3DBase.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\Tessellation.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\TextCoreProperties.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\HandleDottedLinesShader.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\VideoDecode.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\GUITextureBlitSceneGUI.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityInstancing.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Shaders\UIElements\AACurveField.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SplashScreen\SeparableBlur.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Splats\Terrain-Utilities.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Splats\Specular-Base.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\AlphaTest-Glossy.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\OpaqueSelection.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResources\Internal-Loading.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\Preview.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Normal-Parallax.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Splats\Standard-Base.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\VideoDecodeOSX.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Normal-DiffuseDetail.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResources\Internal-Clear.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResources\Internal-VT-TranslationTableUpsample.compute" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Sprites-Mask.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Splats\Standard-BaseGen.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityShaderUtilities.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Editors\AnimationWindow\ControlPoint.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityPBSLighting.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UI\UI-Lit-Bumped.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Alpha-Parallax.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeaves.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Alpha-Glossy.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Normal-VertexLit.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesRendertex.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Avatar\Shaders\Editor-AlphaDiffuse.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewColor2D.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Sprites-Default.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionLeaves.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorAlbedoRenderTex.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Reflect-Diffuse.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-BlitCopy.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\SceneViewShowOverdraw.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\ParticleShapeGizmo.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-GUIRoundedRect.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStandardConfig.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Alpha-VertexLit.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Alpha.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityMetaPass.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-DepthNormalsTexture.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityCG.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Reflect-BumpVertexLit.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Lightmap-Diffuse.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\GIDebug\VertexColors.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\AlphaBasedSelectionNoZWrite.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Sprites-Diffuse.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStandardParticleEditor.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Particle Standard Surface.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-MotionVectors.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Illumin-Glossy.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityCG.glslinc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewEncodedLightmapDoubleLDR.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Physics\DebugVisWireCapsule.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Add.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\SceneViewDeferredShader.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\GizmoColorOcclusion.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewEncodedLightmapRGBM.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Inspectors\Internal-GUITextureClipVertically.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\Lighting.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\SpeedTreeWind.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityStandardInput.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewCubemapArray.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\VertexSelectionBackfacesShader.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-GUIRoundedRectWithColorPerBorder.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewAudioClipWaveform.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-StencilWrite.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Lightmap-VertexLit.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Mobile\Mobile-VertexLit.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Reflect-BumpSpec.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorNormalRendertex.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityRayTracingMeshUtils.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\GLSLSupport.glslinc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Previews\PreviewEncodedLightmapFullHDR.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-Flare.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\GizmoLit.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\CircularArc.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResources\Internal-Colored.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Reflect-ParallaxSpec.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Reflect-BumpNolight.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityCustomRenderTexture.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\VR\Shaders\BlitTexArraySliceToDepth.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\HLSLSupport.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Avatar\Materials\Avatar.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Nature\SpeedTree8.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UI\UI-Lit-Transparent.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\VR\Shaders\SpatialMappingWireframe.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Reflect-Glossy.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\VideoDecodeAndroid.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\SceneViewShowTextureStreaming.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Splats\AddPass.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TextCore-SDF-SSD.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Compositing.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResources\Internal-BlendShape.compute" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\SH.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\VR\Shaders\BlitFromTex2DToTexArraySlice.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\GIDebug\UV1sAsPositions.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UI\UI-Unlit-Transparent.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\SceneViewBuildFilter.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Details\VertexLit.shader" />
+     <None Include="Assets\Materials\HLSL_DoubleBRDF.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Utils\PaintHeight.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\UI\UI-Default.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Alpha-Diffuse.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\VertexSelectionShader.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\SpeedTree8Common.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Illumin-VertexLit.shader" />
      <None Include="Assets\Materials\DoubleModelShading.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\AlphaTest-SoftEdgeUnlit.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-DeferredShading.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Mobile\Mobile-Lightmap-Unlit.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-BlitCopyHDRTonemap.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\SceneViewApplyFilter.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Normal-Glossy.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\SceneView\GridOrthoShader.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Reflect-Parallax.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Illumin-Parallax.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\TerrainShaders\Splats\DiffuseBase.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\AlphaTest-VertexLit.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\CGIncludes\UnityBuiltin2xTreeLibrary.cginc" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-ODSWorldTexture.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Internal-BlitCopyWithDepth.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\EditorDefaultResources\Editors\AnimationWindow\Curve.shader" />
+     <None Include="Assets\Materials\Built-in Shaders\DefaultResourcesExtra\Alpha-BumpSpec.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -261,6 +613,9 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Valve.Newtonsoft.Json">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Assets\SteamVR\Input\Plugins\JSON.NET\Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -610,17 +965,14 @@
     <Reference Include="System.Xml.XPath.XDocument">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
         <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.OpenVR">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.XR.OpenVR.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
         <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
@@ -631,29 +983,23 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.Management.Editor">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
         <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
         <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -670,14 +1016,70 @@
     <Reference Include="UnityEngine.UI">
         <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    <Reference Include="UnityEngine.SpatialTracking">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenVR.Editor">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
         <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+        <HintPath>D:\Unity\Projects\Foveated Shading\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="SteamVR_Input_Editor.csproj">
+      <Project>{ec17c235-61ce-7462-de11-0f303973bc78}</Project>
+      <Name>SteamVR_Input_Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR.csproj">
+      <Project>{277c12b4-177c-0480-a74b-f7babc469496}</Project>
+      <Name>SteamVR</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
+      <Project>{f47c0a54-ed41-5d5f-530f-4df356a5929b}</Project>
+      <Name>SteamVR_Windows_EditorHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Editor.csproj">
+      <Project>{e8bb957b-8373-bff7-2494-906fe0e29db7}</Project>
+      <Name>SteamVR_Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Actions.csproj">
+      <Project>{051b9c5d-ee5a-4531-b369-9e185ea934e6}</Project>
+      <Name>SteamVR_Actions</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

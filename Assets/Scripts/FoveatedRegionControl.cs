@@ -18,6 +18,6 @@ public class FoveatedRegionControl : MonoBehaviour
         //fov_mat.SetVector("Foveated Position", new Vector4(mousePos.x / Screen.width, mousePos.y / Screen.height));
         //Debug.Log(new Vector4(mousePos.x / Screen.width, mousePos.y / Screen.height));
         Shader mat_shader = fov_mat.shader;
-        Shader.SetGlobalVector("foveated_position", new Vector4(mousePos.x / Screen.width, mousePos.y / Screen.height));
+        Shader.SetGlobalVector("target_region", new Vector4(mousePos.x / Screen.width, mousePos.y / Screen.height));
     }
 }
