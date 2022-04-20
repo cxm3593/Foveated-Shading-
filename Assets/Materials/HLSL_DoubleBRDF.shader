@@ -6,6 +6,15 @@ Shader "Unlit/HLSL_DoubleBRDF"
     {
         _MainTex ("Texture", 2D) = "white" {}
         Fov_size ("Foveated Region size", Range(0, 1)) = 0.1
+		specExp ("Phong specExp", Float) = 8
+		k_ambient("Phong k_ambient", Range(0, 1)) = 0.1
+		k_diffuse("Phong k_diffuse", Range(0, 1)) = 0.5
+		k_specular("Phong k_specular", Range(0, 1)) = 0.4
+		s ("Strauss smoothness", Range(0, 1)) = 0.5
+		m ("Strauss metalness", Range(0, 1)) = 0.5
+
+		Strauss_burden ("Strauss_burden", Float) = 100
+
     }
     SubShader
     {
@@ -52,6 +61,15 @@ Shader "Unlit/HLSL_DoubleBRDF"
 
             uniform float Fov_size;
             uniform float2 target_region = {0.5, 0.5};
+			uniform float specExp;
+			uniform float k_ambient;
+			uniform float k_diffuse;
+			uniform float k_specular;
+
+			uniform float s;
+			uniform float m;
+
+			uniform float Strauss_burden;
 
             v2f vert (appdata v)
             {
@@ -77,13 +95,13 @@ Shader "Unlit/HLSL_DoubleBRDF"
 
                 float4 ambient = UNITY_LIGHTMODEL_AMBIENT * col; //Ambient component
                 float4 diffuse = _LightColor0 * col * max(0.0, dot(N, L)); //Diffuse component
-                float specExp = 8;
+                //float specExp = 8;
                 float4 specularColor = float4(1, 1, 1, 1);
                 float specDot = pow( max(dot(R,V),0.0), specExp );
                 float4 specular = _LightColor0 * specularColor * specDot;
                 if (dot(i.normal, L) < 0.0) specular = float4(0, 0, 0, 1);
 
-                float4 col_phong = (0.1 * ambient) + (0.5 * diffuse) + (0.4 * specular) ;
+                float4 col_phong = (k_ambient * ambient) + (k_diffuse * diffuse) + (k_specular * specular) ;
                 return col_phong;
             }
 
@@ -111,8 +129,8 @@ Shader "Unlit/HLSL_DoubleBRDF"
 
 
                 float4 C = col;
-                float s = 0.7;
-                float m = 0.5;
+                //float s = smoothness;
+                //float m = metalness;
                 float t = 0;
 
                 // calculate components
@@ -153,15 +171,15 @@ Shader "Unlit/HLSL_DoubleBRDF"
                 //vec4 Ir = (Qd + Qs);
                 float4 Ir = Qd + Qs;
 
-                // ambient
+                // burden
                 float index = 0;
-                // while (index < 1){
-                //     if (index >= 0){
-                //         index += _delay;
-                //     }
-                // }
+                 while (index < 1){
+                     if (index >= 0){
+                         index += (1 / Strauss_burden);
+                     }
+                 }
 
-                return Ir ;
+                return Ir * index ;
             }
 
             fixed4 frag (v2f i) : SV_Target

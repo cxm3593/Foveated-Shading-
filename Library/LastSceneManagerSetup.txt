@@ -1,4 +1,8 @@
 sceneSetups:
+- path: Assets/Plugins/Pupil/Demos/GazeDemo/GazeDemoScene.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
 - path: Assets/Foveated Shading Test Ground.unity
   isLoaded: 1
   isActive: 1
